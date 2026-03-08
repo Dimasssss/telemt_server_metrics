@@ -1,4 +1,4 @@
-# Server Metrics 2026-03-08 03:02:34 UTC
+# Server Metrics 2026-03-08 03:07:41 UTC
 - Updated every 5 minutes. 
 - Metrics with a value of 0 are not displayed.
 
@@ -7,35 +7,35 @@
 ```
 telemt 3.3.10
 
-telemt_uptime_seconds 37044.2 (10h 17m)
+telemt_uptime_seconds 37351.4 (10h 22m)
 telemt_telemetry_core_enabled 1
 telemt_telemetry_user_enabled 1
 telemt_telemetry_me_level{level="normal"} 1
-telemt_connections_total 518060
+telemt_connections_total 521681
 telemt_connections_bad_total 4445
-telemt_handshake_timeouts_total 9798
-telemt_upstream_connect_attempt_total 18645
-telemt_upstream_connect_success_total 18393
+telemt_handshake_timeouts_total 10059
+telemt_upstream_connect_attempt_total 18787
+telemt_upstream_connect_success_total 18535
 telemt_upstream_connect_fail_total 143
-telemt_upstream_connect_attempts_per_request{bucket="1"} 18536
-telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 8349
-telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 9923
+telemt_upstream_connect_attempts_per_request{bucket="1"} 18678
+telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 8411
+telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 10003
 telemt_upstream_connect_duration_success_total{bucket="501_1000ms"} 46
 telemt_upstream_connect_duration_success_total{bucket="gt_1000ms"} 75
 telemt_upstream_connect_duration_fail_total{bucket="gt_1000ms"} 143
-telemt_me_keepalive_timeout_total 401
-telemt_me_reconnect_attempts_total 5734
-telemt_me_reconnect_success_total 1342
-telemt_me_reader_eof_total 1792
-telemt_me_idle_close_by_peer_total 1792
-telemt_me_route_drop_no_conn_total 255933
+telemt_me_keepalive_timeout_total 405
+telemt_me_reconnect_attempts_total 5735
+telemt_me_reconnect_success_total 1343
+telemt_me_reader_eof_total 1795
+telemt_me_idle_close_by_peer_total 1795
+telemt_me_route_drop_no_conn_total 256502
 telemt_me_route_drop_channel_closed_total 2
 telemt_me_hardswap_pending_ttl_expired_total 1
 telemt_me_single_endpoint_outage_enter_total 1
 telemt_me_single_endpoint_outage_exit_total 1
 telemt_me_single_endpoint_outage_reconnect_attempt_total 2
 telemt_me_single_endpoint_quarantine_bypass_total 2
-telemt_me_single_endpoint_shadow_rotate_total 243
+telemt_me_single_endpoint_shadow_rotate_total 248
 telemt_me_floor_mode{mode="adaptive"} 1
 telemt_me_adaptive_floor_cpu_cores_detected 2
 telemt_me_adaptive_floor_cpu_cores_effective 2
@@ -46,25 +46,25 @@ telemt_me_adaptive_floor_active_cap_configured 128
 telemt_me_adaptive_floor_active_cap_effective 128
 telemt_me_adaptive_floor_warm_cap_configured 128
 telemt_me_adaptive_floor_warm_cap_effective 128
-telemt_me_writers_active_current 43
-telemt_desync_total 1870
-telemt_desync_full_logged_total 559
-telemt_desync_suppressed_total 1311
-telemt_desync_frames_bucket_total{bucket="1_2"} 492
-telemt_desync_frames_bucket_total{bucket="3_10"} 769
-telemt_desync_frames_bucket_total{bucket="gt_10"} 609
+telemt_me_writers_active_current 46
+telemt_desync_total 1885
+telemt_desync_full_logged_total 565
+telemt_desync_suppressed_total 1320
+telemt_desync_frames_bucket_total{bucket="1_2"} 494
+telemt_desync_frames_bucket_total{bucket="3_10"} 776
+telemt_desync_frames_bucket_total{bucket="gt_10"} 615
 telemt_pool_swap_total 29
-telemt_pool_force_close_total 779
-telemt_me_writer_removed_unexpected_total 1508
+telemt_pool_force_close_total 802
+telemt_me_writer_removed_unexpected_total 1509
 telemt_me_refill_failed_total 135
-telemt_me_writer_restored_same_endpoint_total 1331
+telemt_me_writer_restored_same_endpoint_total 1332
 telemt_me_writer_removed_unexpected_minus_restored_total 177
-telemt_user_connections_total{user="hello"} 485889
-telemt_user_connections_current{user="hello"} 507
-telemt_user_octets_from_client{user="hello"} 6751671964 (6.29 GB)
-telemt_user_octets_to_client{user="hello"} 164995816012 (153.66 GB)
-telemt_user_unique_ips_current{user="hello"} 151
-telemt_user_unique_ips_recent_window{user="hello"} 73
+telemt_user_connections_total{user="hello"} 489189
+telemt_user_connections_current{user="hello"} 504
+telemt_user_octets_from_client{user="hello"} 6800031804 (6.33 GB)
+telemt_user_octets_to_client{user="hello"} 166851663836 (155.39 GB)
+telemt_user_unique_ips_current{user="hello"} 154
+telemt_user_unique_ips_recent_window{user="hello"} 70
 ```
 
 ## server2
@@ -72,161 +72,27 @@ telemt_user_unique_ips_recent_window{user="hello"} 73
 ```
 telemt 3.3.10
 
-telemt_uptime_seconds 37044.3 (10h 17m)
+telemt_uptime_seconds 37351.5 (10h 22m)
 telemt_telemetry_core_enabled 1
 telemt_telemetry_user_enabled 1
 telemt_telemetry_me_level{level="normal"} 1
-telemt_connections_total 247447
-telemt_connections_bad_total 488
-telemt_handshake_timeouts_total 4071
-telemt_upstream_connect_attempt_total 19649
-telemt_upstream_connect_success_total 19592
+telemt_connections_total 248463
+telemt_connections_bad_total 495
+telemt_handshake_timeouts_total 4081
+telemt_upstream_connect_attempt_total 19807
+telemt_upstream_connect_success_total 19750
 telemt_upstream_connect_fail_total 44
-telemt_upstream_connect_attempts_per_request{bucket="1"} 19636
-telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 7783
-telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 11787
+telemt_upstream_connect_attempts_per_request{bucket="1"} 19794
+telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 7844
+telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 11884
 telemt_upstream_connect_duration_success_total{bucket="gt_1000ms"} 22
 telemt_upstream_connect_duration_fail_total{bucket="gt_1000ms"} 44
-telemt_me_keepalive_timeout_total 274
-telemt_me_reconnect_attempts_total 10067
-telemt_me_reconnect_success_total 1747
-telemt_me_reader_eof_total 2250
-telemt_me_idle_close_by_peer_total 2250
-telemt_me_route_drop_no_conn_total 87387
-telemt_me_route_drop_queue_full_total 1
-telemt_me_route_drop_queue_full_profile_total{profile="base"} 1
-telemt_me_hardswap_pending_ttl_expired_total 2
-telemt_me_single_endpoint_shadow_rotate_total 255
-telemt_me_floor_mode{mode="adaptive"} 1
-telemt_me_adaptive_floor_cpu_cores_detected 2
-telemt_me_adaptive_floor_cpu_cores_effective 2
-telemt_me_adaptive_floor_global_cap_raw 128
-telemt_me_adaptive_floor_global_cap_effective 128
-telemt_me_adaptive_floor_target_writers_total 37
-telemt_me_adaptive_floor_active_cap_configured 128
-telemt_me_adaptive_floor_active_cap_effective 128
-telemt_me_adaptive_floor_warm_cap_configured 128
-telemt_me_adaptive_floor_warm_cap_effective 128
-telemt_me_writers_active_current 44
-telemt_desync_total 596
-telemt_desync_full_logged_total 202
-telemt_desync_suppressed_total 394
-telemt_desync_frames_bucket_total{bucket="1_2"} 142
-telemt_desync_frames_bucket_total{bucket="3_10"} 235
-telemt_desync_frames_bucket_total{bucket="gt_10"} 219
-telemt_pool_swap_total 31
-telemt_pool_force_close_total 623
-telemt_pool_stale_pick_total 12
-telemt_me_writer_removed_unexpected_total 2030
-telemt_me_refill_failed_total 259
-telemt_me_writer_restored_same_endpoint_total 1738
-telemt_me_writer_removed_unexpected_minus_restored_total 292
-telemt_user_connections_total{user="hello"} 196910
-telemt_user_connections_current{user="hello"} 174
-telemt_user_octets_from_client{user="hello"} 2540256888 (2.37 GB)
-telemt_user_octets_to_client{user="hello"} 69191964664 (64.44 GB)
-telemt_user_unique_ips_current{user="hello"} 62
-telemt_user_unique_ips_recent_window{user="hello"} 21
-```
-
-## server3
-
-```
-telemt 3.3.10
-
-telemt_uptime_seconds 37044.2 (10h 17m)
-telemt_telemetry_core_enabled 1
-telemt_telemetry_user_enabled 1
-telemt_telemetry_me_level{level="normal"} 1
-telemt_connections_total 543208
-telemt_connections_bad_total 4385
-telemt_handshake_timeouts_total 4755
-telemt_upstream_connect_attempt_total 23093
-telemt_upstream_connect_success_total 22742
-telemt_upstream_connect_fail_total 145
-telemt_upstream_connect_attempts_per_request{bucket="1"} 22887
-telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 10987
-telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 11548
-telemt_upstream_connect_duration_success_total{bucket="501_1000ms"} 3
-telemt_upstream_connect_duration_success_total{bucket="gt_1000ms"} 204
-telemt_upstream_connect_duration_fail_total{bucket="gt_1000ms"} 145
-telemt_me_keepalive_timeout_total 529
-telemt_me_reconnect_attempts_total 13743
-telemt_me_reconnect_success_total 3622
-telemt_me_reader_eof_total 4518
-telemt_me_idle_close_by_peer_total 4517
-telemt_me_route_drop_no_conn_total 138660
-telemt_me_route_drop_queue_full_total 1
-telemt_me_route_drop_queue_full_profile_total{profile="base"} 1
-telemt_me_endpoint_quarantine_total 1
-telemt_me_hardswap_pending_ttl_expired_total 3
-telemt_me_single_endpoint_outage_enter_total 2
-telemt_me_single_endpoint_outage_exit_total 2
-telemt_me_single_endpoint_outage_reconnect_attempt_total 2
-telemt_me_single_endpoint_outage_reconnect_success_total 1
-telemt_me_single_endpoint_quarantine_bypass_total 2
-telemt_me_single_endpoint_shadow_rotate_total 244
-telemt_me_floor_mode{mode="adaptive"} 1
-telemt_me_adaptive_floor_cpu_cores_detected 2
-telemt_me_adaptive_floor_cpu_cores_effective 2
-telemt_me_adaptive_floor_global_cap_raw 128
-telemt_me_adaptive_floor_global_cap_effective 128
-telemt_me_adaptive_floor_target_writers_total 37
-telemt_me_adaptive_floor_active_cap_configured 128
-telemt_me_adaptive_floor_active_cap_effective 128
-telemt_me_adaptive_floor_warm_cap_configured 128
-telemt_me_adaptive_floor_warm_cap_effective 128
-telemt_me_writers_active_current 44
-telemt_me_floor_cap_block_total 9
-telemt_me_floor_swap_idle_failed_total 9
-telemt_desync_total 1220
-telemt_desync_full_logged_total 396
-telemt_desync_suppressed_total 824
-telemt_desync_frames_bucket_total{bucket="1_2"} 301
-telemt_desync_frames_bucket_total{bucket="3_10"} 445
-telemt_desync_frames_bucket_total{bucket="gt_10"} 474
-telemt_pool_swap_total 22
-telemt_pool_force_close_total 494
-telemt_me_writer_removed_unexpected_total 4018
-telemt_me_refill_failed_total 314
-telemt_me_writer_restored_same_endpoint_total 3609
-telemt_me_writer_restored_fallback_total 5
-telemt_me_writer_removed_unexpected_minus_restored_total 404
-telemt_user_connections_total{user="hello"} 343204
-telemt_user_connections_current{user="hello"} 250
-telemt_user_octets_from_client{user="hello"} 37595005732 (35.01 GB)
-telemt_user_octets_to_client{user="hello"} 122486837204 (114.07 GB)
-telemt_user_unique_ips_current{user="hello"} 94
-telemt_user_unique_ips_recent_window{user="hello"} 31
-```
-
-## server4
-
-```
-telemt 3.3.10
-
-telemt_uptime_seconds 37045.0 (10h 17m)
-telemt_telemetry_core_enabled 1
-telemt_telemetry_user_enabled 1
-telemt_telemetry_me_level{level="normal"} 1
-telemt_connections_total 252852
-telemt_connections_bad_total 33203
-telemt_handshake_timeouts_total 24202
-telemt_upstream_connect_attempt_total 21956
-telemt_upstream_connect_success_total 21832
-telemt_upstream_connect_fail_total 37
-telemt_upstream_connect_attempts_per_request{bucket="1"} 21869
-telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 10908
-telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 10876
-telemt_upstream_connect_duration_success_total{bucket="gt_1000ms"} 48
-telemt_upstream_connect_duration_fail_total{bucket="gt_1000ms"} 37
-telemt_me_keepalive_timeout_total 407
-telemt_me_reconnect_attempts_total 7379
-telemt_me_reconnect_success_total 2825
-telemt_me_reader_eof_total 3423
-telemt_me_idle_close_by_peer_total 3423
-telemt_me_route_drop_no_conn_total 103658
-telemt_me_route_drop_channel_closed_total 1
+telemt_me_keepalive_timeout_total 275
+telemt_me_reconnect_attempts_total 10070
+telemt_me_reconnect_success_total 1750
+telemt_me_reader_eof_total 2255
+telemt_me_idle_close_by_peer_total 2255
+telemt_me_route_drop_no_conn_total 87595
 telemt_me_route_drop_queue_full_total 1
 telemt_me_route_drop_queue_full_profile_total{profile="base"} 1
 telemt_me_hardswap_pending_ttl_expired_total 2
@@ -236,30 +102,164 @@ telemt_me_adaptive_floor_cpu_cores_detected 2
 telemt_me_adaptive_floor_cpu_cores_effective 2
 telemt_me_adaptive_floor_global_cap_raw 128
 telemt_me_adaptive_floor_global_cap_effective 128
-telemt_me_adaptive_floor_target_writers_total 28
+telemt_me_adaptive_floor_target_writers_total 37
+telemt_me_adaptive_floor_active_cap_configured 128
+telemt_me_adaptive_floor_active_cap_effective 128
+telemt_me_adaptive_floor_warm_cap_configured 128
+telemt_me_adaptive_floor_warm_cap_effective 128
+telemt_me_writers_active_current 46
+telemt_desync_total 596
+telemt_desync_full_logged_total 202
+telemt_desync_suppressed_total 394
+telemt_desync_frames_bucket_total{bucket="1_2"} 142
+telemt_desync_frames_bucket_total{bucket="3_10"} 235
+telemt_desync_frames_bucket_total{bucket="gt_10"} 219
+telemt_pool_swap_total 31
+telemt_pool_force_close_total 645
+telemt_pool_stale_pick_total 12
+telemt_me_writer_removed_unexpected_total 2033
+telemt_me_refill_failed_total 259
+telemt_me_writer_restored_same_endpoint_total 1741
+telemt_me_writer_removed_unexpected_minus_restored_total 292
+telemt_user_connections_total{user="hello"} 197629
+telemt_user_connections_current{user="hello"} 165
+telemt_user_octets_from_client{user="hello"} 2546807008 (2.37 GB)
+telemt_user_octets_to_client{user="hello"} 71135864256 (66.25 GB)
+telemt_user_unique_ips_current{user="hello"} 62
+telemt_user_unique_ips_recent_window{user="hello"} 23
+```
+
+## server3
+
+```
+telemt 3.3.10
+
+telemt_uptime_seconds 37351.3 (10h 22m)
+telemt_telemetry_core_enabled 1
+telemt_telemetry_user_enabled 1
+telemt_telemetry_me_level{level="normal"} 1
+telemt_connections_total 544799
+telemt_connections_bad_total 4392
+telemt_handshake_timeouts_total 4756
+telemt_upstream_connect_attempt_total 23247
+telemt_upstream_connect_success_total 22895
+telemt_upstream_connect_fail_total 145
+telemt_upstream_connect_attempts_per_request{bucket="1"} 23040
+telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 11054
+telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 11632
+telemt_upstream_connect_duration_success_total{bucket="501_1000ms"} 4
+telemt_upstream_connect_duration_success_total{bucket="gt_1000ms"} 205
+telemt_upstream_connect_duration_fail_total{bucket="gt_1000ms"} 145
+telemt_me_keepalive_timeout_total 536
+telemt_me_reconnect_attempts_total 13745
+telemt_me_reconnect_success_total 3624
+telemt_me_reader_eof_total 4520
+telemt_me_idle_close_by_peer_total 4519
+telemt_me_route_drop_no_conn_total 138973
+telemt_me_route_drop_queue_full_total 1
+telemt_me_route_drop_queue_full_profile_total{profile="base"} 1
+telemt_me_endpoint_quarantine_total 1
+telemt_me_hardswap_pending_ttl_expired_total 3
+telemt_me_single_endpoint_outage_enter_total 2
+telemt_me_single_endpoint_outage_exit_total 2
+telemt_me_single_endpoint_outage_reconnect_attempt_total 2
+telemt_me_single_endpoint_outage_reconnect_success_total 1
+telemt_me_single_endpoint_quarantine_bypass_total 2
+telemt_me_single_endpoint_shadow_rotate_total 248
+telemt_me_floor_mode{mode="adaptive"} 1
+telemt_me_adaptive_floor_cpu_cores_detected 2
+telemt_me_adaptive_floor_cpu_cores_effective 2
+telemt_me_adaptive_floor_global_cap_raw 128
+telemt_me_adaptive_floor_global_cap_effective 128
+telemt_me_adaptive_floor_target_writers_total 39
 telemt_me_adaptive_floor_active_cap_configured 128
 telemt_me_adaptive_floor_active_cap_effective 128
 telemt_me_adaptive_floor_warm_cap_configured 128
 telemt_me_adaptive_floor_warm_cap_effective 128
 telemt_me_writers_active_current 45
-telemt_desync_total 458
-telemt_desync_full_logged_total 123
-telemt_desync_suppressed_total 335
+telemt_me_floor_cap_block_total 9
+telemt_me_floor_swap_idle_failed_total 9
+telemt_desync_total 1221
+telemt_desync_full_logged_total 397
+telemt_desync_suppressed_total 824
+telemt_desync_frames_bucket_total{bucket="1_2"} 301
+telemt_desync_frames_bucket_total{bucket="3_10"} 445
+telemt_desync_frames_bucket_total{bucket="gt_10"} 475
+telemt_pool_swap_total 22
+telemt_pool_force_close_total 512
+telemt_me_writer_removed_unexpected_total 4020
+telemt_me_refill_failed_total 314
+telemt_me_writer_restored_same_endpoint_total 3611
+telemt_me_writer_restored_fallback_total 5
+telemt_me_writer_removed_unexpected_minus_restored_total 404
+telemt_user_connections_total{user="hello"} 344770
+telemt_user_connections_current{user="hello"} 231
+telemt_user_octets_from_client{user="hello"} 37933773668 (35.33 GB)
+telemt_user_octets_to_client{user="hello"} 123473713352 (114.99 GB)
+telemt_user_unique_ips_current{user="hello"} 90
+telemt_user_unique_ips_recent_window{user="hello"} 29
+```
+
+## server4
+
+```
+telemt 3.3.10
+
+telemt_uptime_seconds 37352.0 (10h 22m)
+telemt_telemetry_core_enabled 1
+telemt_telemetry_user_enabled 1
+telemt_telemetry_me_level{level="normal"} 1
+telemt_connections_total 253977
+telemt_connections_bad_total 33473
+telemt_handshake_timeouts_total 24203
+telemt_upstream_connect_attempt_total 22101
+telemt_upstream_connect_success_total 21977
+telemt_upstream_connect_fail_total 37
+telemt_upstream_connect_attempts_per_request{bucket="1"} 22014
+telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 10974
+telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 10955
+telemt_upstream_connect_duration_success_total{bucket="gt_1000ms"} 48
+telemt_upstream_connect_duration_fail_total{bucket="gt_1000ms"} 37
+telemt_me_keepalive_timeout_total 409
+telemt_me_reconnect_attempts_total 7381
+telemt_me_reconnect_success_total 2826
+telemt_me_reader_eof_total 3424
+telemt_me_idle_close_by_peer_total 3424
+telemt_me_route_drop_no_conn_total 104487
+telemt_me_route_drop_channel_closed_total 1
+telemt_me_route_drop_queue_full_total 1
+telemt_me_route_drop_queue_full_profile_total{profile="base"} 1
+telemt_me_hardswap_pending_ttl_expired_total 2
+telemt_me_single_endpoint_shadow_rotate_total 263
+telemt_me_floor_mode{mode="adaptive"} 1
+telemt_me_adaptive_floor_cpu_cores_detected 2
+telemt_me_adaptive_floor_cpu_cores_effective 2
+telemt_me_adaptive_floor_global_cap_raw 128
+telemt_me_adaptive_floor_global_cap_effective 128
+telemt_me_adaptive_floor_target_writers_total 37
+telemt_me_adaptive_floor_active_cap_configured 128
+telemt_me_adaptive_floor_active_cap_effective 128
+telemt_me_adaptive_floor_warm_cap_configured 128
+telemt_me_adaptive_floor_warm_cap_effective 128
+telemt_me_writers_active_current 45
+telemt_desync_total 462
+telemt_desync_full_logged_total 124
+telemt_desync_suppressed_total 338
 telemt_desync_frames_bucket_total{bucket="1_2"} 131
-telemt_desync_frames_bucket_total{bucket="3_10"} 152
-telemt_desync_frames_bucket_total{bucket="gt_10"} 175
+telemt_desync_frames_bucket_total{bucket="3_10"} 155
+telemt_desync_frames_bucket_total{bucket="gt_10"} 176
 telemt_pool_swap_total 29
-telemt_pool_force_close_total 681
-telemt_me_writer_removed_unexpected_total 3008
+telemt_pool_force_close_total 697
+telemt_me_writer_removed_unexpected_total 3009
 telemt_me_refill_failed_total 141
-telemt_me_writer_restored_same_endpoint_total 2813
+telemt_me_writer_restored_same_endpoint_total 2814
 telemt_me_writer_removed_unexpected_minus_restored_total 195
-telemt_user_connections_total{user="hello"} 191054
-telemt_user_connections_current{user="hello"} 129
-telemt_user_octets_from_client{user="hello"} 5239156152 (4.88 GB)
-telemt_user_octets_to_client{user="hello"} 83401008372 (77.67 GB)
-telemt_user_unique_ips_current{user="hello"} 56
-telemt_user_unique_ips_recent_window{user="hello"} 18
+telemt_user_connections_total{user="hello"} 191884
+telemt_user_connections_current{user="hello"} 172
+telemt_user_octets_from_client{user="hello"} 5247368064 (4.89 GB)
+telemt_user_octets_to_client{user="hello"} 83636121640 (77.89 GB)
+telemt_user_unique_ips_current{user="hello"} 64
+telemt_user_unique_ips_recent_window{user="hello"} 23
 ```
 
 ## server5
@@ -267,62 +267,62 @@ telemt_user_unique_ips_recent_window{user="hello"} 18
 ```
 telemt 3.3.10
 
-telemt_uptime_seconds 37044.3 (10h 17m)
+telemt_uptime_seconds 37351.3 (10h 22m)
 telemt_telemetry_core_enabled 1
 telemt_telemetry_user_enabled 1
 telemt_telemetry_me_level{level="normal"} 1
-telemt_connections_total 308218
-telemt_connections_bad_total 2972
+telemt_connections_total 309689
+telemt_connections_bad_total 3154
 telemt_handshake_timeouts_total 1791
-telemt_upstream_connect_attempt_total 28294
-telemt_upstream_connect_success_total 27908
+telemt_upstream_connect_attempt_total 28448
+telemt_upstream_connect_success_total 28062
 telemt_upstream_connect_fail_total 55
-telemt_upstream_connect_attempts_per_request{bucket="1"} 27963
-telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 12716
-telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 14811
-telemt_upstream_connect_duration_success_total{bucket="501_1000ms"} 6
+telemt_upstream_connect_attempts_per_request{bucket="1"} 28117
+telemt_upstream_connect_duration_success_total{bucket="le_100ms"} 12784
+telemt_upstream_connect_duration_success_total{bucket="101_500ms"} 14896
+telemt_upstream_connect_duration_success_total{bucket="501_1000ms"} 7
 telemt_upstream_connect_duration_success_total{bucket="gt_1000ms"} 375
 telemt_upstream_connect_duration_fail_total{bucket="gt_1000ms"} 55
-telemt_me_keepalive_timeout_total 662
-telemt_me_reconnect_attempts_total 8648
-telemt_me_reconnect_success_total 6180
-telemt_me_reader_eof_total 7846
-telemt_me_idle_close_by_peer_total 7845
-telemt_me_route_drop_no_conn_total 101553
+telemt_me_keepalive_timeout_total 666
+telemt_me_reconnect_attempts_total 8653
+telemt_me_reconnect_success_total 6185
+telemt_me_reader_eof_total 7853
+telemt_me_idle_close_by_peer_total 7852
+telemt_me_route_drop_no_conn_total 101834
 telemt_me_route_drop_channel_closed_total 3
 telemt_me_endpoint_quarantine_total 1
 telemt_me_hardswap_pending_ttl_expired_total 3
-telemt_me_single_endpoint_shadow_rotate_total 260
+telemt_me_single_endpoint_shadow_rotate_total 264
 telemt_me_single_endpoint_shadow_rotate_skipped_quarantine_total 1
 telemt_me_floor_mode{mode="adaptive"} 1
 telemt_me_adaptive_floor_cpu_cores_detected 4
 telemt_me_adaptive_floor_cpu_cores_effective 4
 telemt_me_adaptive_floor_global_cap_raw 256
 telemt_me_adaptive_floor_global_cap_effective 256
-telemt_me_adaptive_floor_target_writers_total 37
+telemt_me_adaptive_floor_target_writers_total 35
 telemt_me_adaptive_floor_active_cap_configured 256
 telemt_me_adaptive_floor_active_cap_effective 256
 telemt_me_adaptive_floor_warm_cap_configured 256
 telemt_me_adaptive_floor_warm_cap_effective 256
-telemt_me_writers_active_current 43
-telemt_desync_total 689
-telemt_desync_full_logged_total 211
-telemt_desync_suppressed_total 478
-telemt_desync_frames_bucket_total{bucket="1_2"} 148
-telemt_desync_frames_bucket_total{bucket="3_10"} 242
-telemt_desync_frames_bucket_total{bucket="gt_10"} 299
+telemt_me_writers_active_current 44
+telemt_desync_total 696
+telemt_desync_full_logged_total 213
+telemt_desync_suppressed_total 483
+telemt_desync_frames_bucket_total{bucket="1_2"} 151
+telemt_desync_frames_bucket_total{bucket="3_10"} 244
+telemt_desync_frames_bucket_total{bucket="gt_10"} 301
 telemt_pool_swap_total 27
-telemt_pool_force_close_total 645
+telemt_pool_force_close_total 659
 telemt_pool_stale_pick_total 80
-telemt_me_writer_removed_unexpected_total 6644
+telemt_me_writer_removed_unexpected_total 6649
 telemt_me_refill_failed_total 75
-telemt_me_writer_restored_same_endpoint_total 6169
+telemt_me_writer_restored_same_endpoint_total 6173
 telemt_me_writer_restored_fallback_total 1
-telemt_me_writer_removed_unexpected_minus_restored_total 474
-telemt_user_connections_total{user="hello"} 284153
-telemt_user_connections_current{user="hello"} 171
-telemt_user_octets_from_client{user="hello"} 16796375416 (15.64 GB)
-telemt_user_octets_to_client{user="hello"} 189518396828 (176.50 GB)
-telemt_user_unique_ips_current{user="hello"} 72
-telemt_user_unique_ips_recent_window{user="hello"} 30
+telemt_me_writer_removed_unexpected_minus_restored_total 475
+telemt_user_connections_total{user="hello"} 285421
+telemt_user_connections_current{user="hello"} 205
+telemt_user_octets_from_client{user="hello"} 16986462344 (15.82 GB)
+telemt_user_octets_to_client{user="hello"} 189750452604 (176.72 GB)
+telemt_user_unique_ips_current{user="hello"} 73
+telemt_user_unique_ips_recent_window{user="hello"} 23
 ```
